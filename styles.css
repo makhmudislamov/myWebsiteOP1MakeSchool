@@ -11,9 +11,11 @@
      padding: 1em;
      display: flex;
      justify-content: space-between;
-     width: 96.5%;
+     /* width: 96.5%; */
      border-left: none;  
      border-right: none;
+     
+     
      
  }
 
@@ -43,7 +45,13 @@
 .footer {
     display: flex;  
     justify-content: space-between;
+    width: 100%;
 }
+
+/* .app-icons {
+    display: flex;
+    width: 100%;
+} */
 
 .sticky-footer {
     display: flex;
@@ -57,6 +65,11 @@ div > bottom {
     justify-content: space-between;
 }
 
+footer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-links {
     display: flex;
     flex: 1;
@@ -66,7 +79,8 @@ div > bottom {
 }
 
 .footer-links > li {
-    text-decoration: none;  
+    text-decoration: none;
+      
 }
 
 a {
