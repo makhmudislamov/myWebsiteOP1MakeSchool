@@ -7,23 +7,28 @@
      overflow: hidden;
      position: fixed;
      width: 100%;
-     border: 1px solid;
+     border-bottom: 1px solid;
      padding: 1em;
      display: flex;
      justify-content: space-between;
-     
+     width: 96.5%;
+     border-left: none;  
+     border-right: none;
      
  }
 
  .container {
      display: flex;
      justify-content: space-between;
-     
  }
 
+ .top-nav container {
+     border-top: 0;
+ }
  .container > div {
-     
      border: 1px solid;
+     border-left: 0;
+     border-top: 0;
      flex: 1;
      height: calc(100% - 52px);
 
@@ -32,7 +37,9 @@
      justify-content: center;
      align-items: center;
  }
-
+ .container > .drivers {
+     border-right: 0;
+ }
 .footer {
     display: flex;  
     justify-content: space-between;
